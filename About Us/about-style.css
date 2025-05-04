@@ -1,0 +1,96 @@
+.card:hover {
+    border-color: #000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer-end {
+    padding: 20px 0;
+    background-color: #3a3a3a;
+    color: #fff;
+    text-align: center;
+}
+
+#about-us {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(82, 82, 82, 0.7)),
+        url('../img/your-background.jpg') ;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+#about-us h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#about-us p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.btn-custom {
+    background-color: #d9534f;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #c9302c;
+}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+.bike-icon {
+    animation: rotateBike 5s infinite;
+    width: 120px;
+    margin: 30px auto;
+}
+
+@keyframes rotateBike {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

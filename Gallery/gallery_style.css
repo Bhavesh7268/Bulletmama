@@ -1,0 +1,33 @@
+
+.our-mission {
+    background: url('../img/gallery.jpg') center center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.mission-text {
+    padding: 2rem;
+    border-radius: 10px;
+    animation: fadeInUp 1.2s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer-end {
+    padding-top: 30px;
+    color: #fff;
+    background-color: #3a3a3a !important;
+    display: grid;
+    justify-content: center;
+}
